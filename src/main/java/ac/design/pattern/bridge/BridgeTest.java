@@ -4,6 +4,8 @@ package ac.design.pattern.bridge;
  * @Author acemma
  * @Date 2021/8/19 14:14
  * @Description 桥接模式
+ * 使用场景：
+ * 1. 当一个类存在两个变化的纬度时，且这两个纬度都需要扩展
  */
 public class BridgeTest {
 

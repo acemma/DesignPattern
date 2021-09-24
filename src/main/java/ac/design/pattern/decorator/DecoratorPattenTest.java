@@ -3,7 +3,11 @@ package ac.design.pattern.decorator;
 /**
  * @Author acemma
  * @Date 2020/10/26 20:43
- * @Description
+ * @Description 装饰者模式 是继承的一个替代模式
+ *  在不影响其他对象的情况下，以动态透明的方式给单个对象添加职责
+ *
+ *  JDK中使用的装饰者模式：
+ *  BufferedInputStream BufferedOutputStream BufferedReader BufferedWriter
  */
 public class DecoratorPattenTest {
 

@@ -3,7 +3,7 @@ package ac.design.pattern.facade;
 /**
  * @Author acemma
  * @Date 2020/11/30 14:06
- * @Description 外观模式
+ * @Description 外观模式 迪米特法则的典型应用
  */
 public class FacadeTest {
 
