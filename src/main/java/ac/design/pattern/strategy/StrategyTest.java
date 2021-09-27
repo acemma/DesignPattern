@@ -4,6 +4,12 @@ package ac.design.pattern.strategy;
  * @Author acemma
  * @Date 2020/11/30 13:45
  * @Description 策略模式
+ *
+ * 使用场景：
+ * 1. 一个系统需要几种算法中选择一种时
+ * 2. 一个类定义了多种行为
+ *
+ * JDK中Comparator
  */
 public class StrategyTest {
 
