@@ -10,7 +10,11 @@ import ac.design.reactor.impl.SubscriberImpl;
 public class ReactorTest {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
+        Publisher<String> publisher = new ArrayPublisher<>(new String[] {"a", "b", "c", "d", "error", "h"});
+=======
         Publisher<String> publisher = new ArrayPublisher<>(new String[] {"a", "b", "c", "d", "error", "j"});
+>>>>>>> test
         publisher.subscribe(new SubscriberImpl<>());
     }
 
